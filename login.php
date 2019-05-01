@@ -144,6 +144,8 @@ if(isset($_SESSION['errorMSG']))
 
             <br><br><br>
 
+            <p style="color:red;"><?php  echo $_SESSION['errorMSGlogin']  ?></p>
+
             <div id="loginButtonsDiv">
 
                 <input type="submit" name="action" id="newLoginButton2" value="Login">
