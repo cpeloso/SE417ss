@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Impact';
+    src: url('../fonts/Impact.woff2') format('woff2'),
+        url('../fonts/Impact.woff') format('woff'),
+        url('Impact.ttf') format('truetype'),
+        url('Impact.svg#svgImpact') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

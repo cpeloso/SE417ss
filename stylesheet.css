@@ -1,0 +1,968 @@
+/*both of us worked on this*/
+body{
+    background:radial-gradient(#FFFFFF, #ffcecf);
+    height:100%;
+    margin:0;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+#container{
+    /*border:1px solid black;*/
+    width:65%;
+    margin:0 auto 0 auto;
+}
+
+/*
+a:link{
+    color:red;
+    text-decoration:none;
+    font-family:impact,arial;
+    font-size:26px;
+    margin-left:50px;
+}
+a:hover{
+    color:white;
+}
+
+a:visited{
+    color:red;
+}*/
+
+#headerBB{
+    font-family:impact,arial;
+    color:#F77578;
+    font-style:italic;
+    text-align:center;
+    /*border:1px solid black;*/
+    width:230px;
+    margin:auto;
+}
+
+#BBmotto{
+    font-family:"Segoe Script","Brush Script Std",arial;
+    color:black;
+    text-align:center;
+}
+
+#landingPageBB{
+    font-family:impact,arial;
+    color:#F77578;
+    font-style:italic;
+}
+#BBmottoLanding{
+    color:blue;
+}
+
+#landingLogin{
+    color:#F77578;
+    border:none;
+    font-family:impact,arial;
+    font-size:26px !important;
+    background:none;
+    text-decoration:none;
+    padding:0;
+    margin:0 30%;
+}
+
+#landingLogin:hover{
+    color:#ffaea5;
+}
+
+#landingSignup{
+    color:#F77578;
+    border:none;
+    background:none;
+    padding:0;
+    margin:0 50 0 50;
+    margin-left:-75px;
+    text-decoration:none;
+    font-family:impact,arial;
+    font-size:26px;
+}
+
+#landingSignup:hover{
+    color:#ffaea5;
+}
+
+#loginBB{
+    color:#F77578;
+    font-family:impact,arial;
+    font-style:italic;
+    margin:40px 50px;
+    /*border:1px solid black;*/
+    font-size:36px;
+    margin:0 auto 0 auto;
+    width:450px;
+}
+
+#loginMotto{
+    font-family:"Segoe Script","Brush Script Std",arial;
+    color:black;
+    text-align:center;
+    font-size:30px;
+    /*border:1px solid black;*/
+    width:50%;
+    margin:15px auto 30px auto;
+
+}
+
+#registerLink{
+    color: #0092E1;
+    font-family: impact,arial;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    text-decoration: none;
+    text-align:center;
+    background:none;
+    border:none;
+    margin-left:15px;
+}
+
+#registerLink:hover{
+    color:#2163ff;
+}
+
+#signupLinkLogin{
+    color: #343F4B;
+    font-family: impact,arial;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    text-align:center;
+    background-color:none;
+}
+
+#footer{
+    /*border:1px solid black;*/
+    font-family:arial;
+    font-size:14px;
+    background-color:black;
+    color:white;
+}
+
+#logoutButton{
+    font-size:16px;
+    /*border:1px solid blue;*/
+    border:none;
+    padding:0px 0px 0px 0px;
+    background:none;
+    float:right;
+    font-family:arial;
+    margin-top:2%;
+    margin-right:2%;
+    font-weight:bold;
+}
+
+#logoutButtonHeader{
+    width:80px;
+    margin:0 auto;
+    /*border:1px solid red;*/
+    float:right;
+    text-align:center;
+    margin-top:50px;
+}
+
+header{
+    /*border:1px solid black;*/
+    width:1000px;
+    margin:0 auto 0 auto;
+}
+
+header section{
+    margin:auto;
+    margin-bottom:30px;
+    /*border:1px solid black;*/
+}
+
+#overviewContent{
+    /*border:1px solid black;*/
+    width:1000px;
+    margin:0 auto 0 auto;
+}
+
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    background-color:black;
+}
+
+#BBlogoHeader{
+    width:250px;
+    margin:0 auto;
+    /*border:1px solid black;*/
+}
+
+#BBmottoHeader{
+    width:515px;
+    margin:0 auto;
+    /*border:1px solid black;*/
+}
+
+#incomeTable{
+    margin:0 auto 0 auto;
+}
+#incomeTable th{
+    /*border:1px solid black;*/
+    text-align:center;
+    background-color:#6585bb;
+}
+#incomeTable td{
+    border:1px solid black;
+    text-align:center;
+    background-color:lightgray;
+}
+
+#submitButtonIncomeTable{
+    background-color:none;
+    border:none;
+}
+
+#landingPageContainer{
+    /*border:1px solid black;*/
+    width:600px;
+    margin:10% auto;
+}
+
+#overviewButtons{
+    border:4px solid black;
+    padding:10px 60px;
+}
+
+#piechart{
+    /*border:1px solid black;*/
+    width:500px;
+    position:relative;
+    float:left;
+}
+
+#incomePageContainer{
+    /*border:1px solid black;*/
+}
+
+#registerPageContainer{
+    /*border:1px solid black;*/
+    width:900px;
+    margin:0 auto;
+}
+
+#registerBB{
+    color:#F77578;
+    font-family:impact,arial;
+    font-style:italic;
+    text-align:center;
+    margin:40px 50px;
+    /*border:1px solid black;*/
+    font-size:36px;
+    margin:0 auto 0 auto;
+    width:550px;
+}
+
+#registerMotto{
+    font-family:"Segoe Script","Brush Script Std",arial;
+    color:black;
+    text-align:center;
+    font-size:30px;
+    /*border:1px solid black;*/
+    width:50%;
+    margin:15px auto 0 auto;
+}
+
+#emailVarRegister{
+    background-color: #CACACA;
+    border: 4px solid #343F4B;
+    width: 250px;
+    height: 80px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 93px;
+    text-align:center;
+    font-family:impact,arial;
+} 
+
+#passwordVarRegister{
+    background-color: #CACACA;
+    border: 4px solid #343F4B;
+    width: 250px;
+    height: 80px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 93px;
+    text-align:center;
+    font-family:impact,arial;
+}
+
+#passwordVarConfirmRegister{
+    background-color: #CACACA;
+    border: 4px solid #343F4B;
+    width: 250px;
+    height: 80px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 93px;
+    text-align:center;
+    font-family:impact,arial;
+}
+
+#registerButton{
+    color: #F77578;
+    font-family: impact,arial;
+    font-size: 36px;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+
+#registerButton:hover{
+    color:#ff3f44;
+}
+
+#loginPageContainer{
+    /*border:1px solid black;*/
+    width:900px;
+    margin:0 auto;
+}
+
+#emailVarLogin{
+    background-color: #CACACA;
+    border: 4px solid #343F4B;
+    width: 250px;
+    height: 80px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 93px;
+    text-align:center;
+    font-family:impact,arial;
+}
+
+#passwordVarLogin{
+    background-color: #CACACA;
+    border: 4px solid #343F4B;
+    width: 250px;
+    height: 80px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 93px;
+    text-align:center;
+    font-family:impact,arial;
+}
+
+#loginButton{
+    color: #F77578;
+    font-family: impact,arial;
+    font-size: 48px;
+    background:none;
+    border:none;
+    cursor:pointer;
+    text-align:center;
+    margin-right:30px;
+    border:1px solid black;
+    padding:0;
+}
+
+#loginButton:hover{
+    color:#ff3f44;
+}
+
+#newLoginButton1{    
+    color:#F77578;
+    font-family:impact,arial;
+    font-size:36px;
+    border:none;
+    background:none;
+    float:left;
+}
+
+#newLoginButton2{
+    color:#F77578;
+    font-family:impact,arial;
+    font-size:36px;
+    background:none;
+    border:none;
+    cursor:pointer;  
+    float:right;  
+}
+
+#newLoginButton1:hover{
+    color:#ff3f44;
+}
+ #newLoginButton2:hover{
+    color:#ff3f44;
+}
+
+#loginButtonsDiv{
+    /*border:1px solid black;*/
+    max-width:350px;
+    min-width:250px;
+    /*max-width:300px;
+    min-width:250px;*/
+    height:65px;
+    margin:auto;
+}
+
+#headerButtons{
+    /*border:1px solid black;*/
+    width:922px;
+    margin:0 auto;
+}
+
+#backButton{
+    color: #6585BB;
+    font-family: impact,arial;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 78px;
+    text-align: left;
+    margin-left:0;
+}
+
+#userSettingsContainer{
+    width:1010px;
+    height:700px;
+    /*border:1px solid black;*/
+    margin:0 auto 0 auto;
+    margin-top:75px;
+}
+
+#userSettingsPic{
+    width:200px;
+    height:200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background:red;
+    float:left;
+}
+
+#userSettingsNameEdit{
+    width:800px;
+    height:200px;
+    /*border:1px solid black;*/
+    float:right;
+}
+
+#username{
+    width:300px;
+    margin-right:50px;
+    /*border:1px solid black;*/
+}
+
+#usernameH2{
+    font-size:72px;
+    font-family:impact,arial;
+    margin:50px 0 0 125px;
+    float:left;
+}
+
+#editBtnUser{
+    color: #6585BB;
+    background:none;
+    border:none;
+    font-family: impact,arial;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 78px;
+    float: left;
+    margin:60px 0 0 75px;
+    padding:0 0 0 0;
+}
+
+#editBtnUser2{
+    color: #6585BB;
+    background:none;
+    border:none;
+    font-family: impact,arial;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 78px;
+    float: left;
+    margin:0 0 0 55px;
+    padding:0 0 0 0;
+}
+
+#userIDH3{
+    float:left;
+    margin:0 0 0 200px;
+    font-family:arial;
+}
+
+#userSettingsButtons{
+    color: #0084CA;
+    background:none;
+    border:none;
+    font-family: arial;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    margin:100px 0 0 0;
+}
+
+  #deleteAccountBtn{
+    background-color: #F77578;
+    color:white;
+    border: 4px solid black;
+    padding:0 5px 0 5px;
+    font-size:48px;
+}
+
+#deleteAccountBtn:hover{
+    background-color: #F77578;
+    color:black;
+    border: 4px solid black;
+    padding:0 5px 0 5px;
+    font-size:48px;
+}
+
+#userSettingsButtons1{
+    width:350px;
+    margin-top:50px;
+    margin-left:75px;
+    /*border:1px solid black;*/
+    float:left;
+}
+
+#userSettingsButtons2{
+    width:400px;
+    margin-top:100px;
+    margin-left:-385px;
+    float:left;
+    /*border:1px solid black;*/
+}
+
+#userSettingsButton3{
+    margin-top:200px;
+    margin-left:-380px;
+    float:left;
+    /*border:1px solid black;*/
+}
+
+#usernameChangeContainer{
+    /*border:1px solid black;*/
+    width:900px;
+    margin:25px auto 0 auto;
+}
+
+#profilePicture{
+    border-radius:50%;
+    margin:-27px 0 0 -38px;
+}
+
+#usernameChangeInput{
+    display:block;
+    font-size:36px;
+    text-align:center;
+    margin:300px auto 0 auto;
+    
+}
+
+#usernameChangeInputSubmit{
+    display:block;
+    margin:50px auto 0 auto;
+}
+
+#pictureCategoryList{
+    display:block;
+    font-size:28px;
+    text-align:center;
+    margin:300px auto 0 auto;
+    padding:10px;
+}
+
+#userpicChangeContainer{
+    /*border:1px solid black;*/
+    width:900px;
+    margin:25px auto 0 auto;
+}
+
+#oldPasswordField{
+    display:block;
+    font-size:36px;
+    text-align:center;
+    margin:200px auto 0 auto;
+}
+
+#dataTableAdmin{
+    border:1px solid black;
+}
+
+#dataTableAdmin th{
+    text-align:center;
+    border:1px solid black;
+    padding:10px;
+}
+
+#dataTableAdmin td{
+    border:1px solid black;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    padding:5px;
+}
+
+#dataTableAdmin a{
+    background:none;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:blue;
+    padding:5px;
+    border:none;
+}
+
+#dataTableAdmin a:hover{
+    color:red;
+}
+
+#adminBtn{
+    font-family:arial;
+    background:none;
+    padding:0;
+    border:none;
+    font-size:14px;
+}
+
+adminBtn > a:hover{
+    color:blue;
+}
+
+#BBheaderdiv{
+    /*border:1px solid black;*/
+    width:700px;
+    float:right;
+    margin-right:112px;
+}
+
+#BBheaderpic{
+    /*border:1px solid black;*/
+    width:100px;
+    height:100px;
+    float:left;
+    margin-top:15px;
+    margin-left:63px;
+}
+
+#BBheaderdiv2{
+    /*border:1px solid black;*/
+    width:550px;
+    float:left;
+    margin-left:30px;
+}
+
+#headerButtons{
+    /*border:1px solid pink;*/
+    margin:0 auto 0 auto;
+    margin-left:-12px;
+}
+
+#headerDiv1{
+    background-color:#3d84f7;
+    position:absolute;
+    width:100%;
+    height:100px;
+    top:0%;
+    left:0%;
+}
+
+#headerBrand{
+    display:inline-block;
+    margin-left:40%;
+    text-align:center;
+    vertical-align:middle;
+    line-height:0.5;
+    color:#F77578;
+    font-family:impact,arial;
+    font-style:italic;
+    /*border:1px solid black;*/
+    font-size:26px;
+}
+
+#overviewContentDiv{
+    /*background-color:green;*/
+    position:relative;
+    width:100%;
+    height:400px;
+    min-height:8%;
+    top:100px;
+    left:0%;
+}
+
+#headerBtn1BTN:link{
+    color:red;
+}
+
+#headerBtn1BTN:hover{
+    color:white !important;
+}
+
+#headerBtn1BTN:visited{
+    color:red;
+}
+
+#productsTable{
+    border:1px solid black;
+    margin:0 auto;
+    width:50%;
+    margin-top:10%;
+    margin-bottom:50px;
+}
+
+#productsTablePics{
+    width:100px;
+    height:100px;
+
+}
+
+.tableRows{
+    border:1px solid black;
+}
+
+.navbar-brand:hover{
+    color:#ffaea5 !important;
+}
+
+#editUsernameBtn:link,visited{
+    color:#F77578;
+    text-decoration:none;
+    margin-right:55px;
+}
+#editUsernameBtn:hover {
+    color:#ffaea5;
+}
+
+#backButtonUsernameChange:link,visited {
+    color:#F77578 !important;
+    text-decoration:none;
+}
+
+#backButtonUsernameChange:hover{
+    color:#ffaea5;
+}
+
+#usernameChangeInputBox{
+    display:block;
+    font-size:26px;
+    text-align:center;
+    width:100%;
+}
+
+#usernameChangeContainer2{    
+    width:400px;
+    margin:150px auto 0 auto;
+}
+
+#usernameChangeID2{
+    display:block;
+    text-align:center;
+}
+
+#landingPageContainerXS{
+    /*border:1px solid black;*/
+    margin-top:50%;
+}
+
+#landingLoginXS{
+    color:#F77578;
+    border:none;
+    background:none;
+    padding:0;
+    margin:0 27%;
+    text-decoration:none;
+    font-family:impact,arial;
+    font-size:26px;
+}
+
+#landingLoginXS:hover{
+    color:#ffaea5;
+}
+
+#landingSignupXS{
+    color:#F77578;
+    border:none;
+    background:none;
+    padding:0;
+    margin:0 50 0 50;
+    margin-left:-75px;
+    text-decoration:none;
+    font-family:impact,arial;
+    font-size:26px;
+}
+
+#landingSignupXS:hover{
+    color:#ffaea5;
+}
+
+@font-face {
+    font-family: 'Impact';
+    src: url('fonts/Impact.woff2') format('woff2'),
+        url('fonts/Impact.woff') format('woff'),
+        url('fonts/Impact.ttf') format('truetype'),
+        url('fonts/Impact.svg#svgImpact') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#registerPageContainerXS{
+    /*border:1px solid black;*/
+    margin-top:20%;
+}
+
+#registerBBXS{
+    font-family:impact,arial;
+    color:#F77578;
+    font-style:italic;
+    text-align:center;
+    /*border:1px solid black;*/
+    width:230px;
+    margin:auto;
+}
+
+#signupLinkLoginXS{    
+    color: #343F4B;
+    font-family: impact,arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 46px;
+    text-align:center;
+    background-color:none;
+}
+
+#registerLinkXS{
+    color: #0092E1;
+    font-family: impact,arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 46px;
+    text-decoration: none;
+    text-align:center;
+    background:none;
+    border:none;
+    margin:0;
+}
+
+#registerLinkXS:hover{
+    color:#4286f4;
+}
+
+#loginPageXS{
+    /*border:1px solid black;*/
+    margin-top:25%;
+}
+
+#profilePicDiv{
+    border:4px solid black;
+    background-color:rgb(92, 145, 220);
+    width:200px;
+    height:200px;
+    margin:0 auto;
+    border-radius:100px;
+}
+
+#backButton{
+    color:#F77578;
+    font-size:36px;
+    border:none;
+    background:none;
+    text-decoration:none;
+    position:absolute;
+    
+}
+
+#backButton:hover{
+    color:#ffaea5;
+}
+
+#backButtonXS{
+    color:#F77578;
+    text-decoration:none;
+    font-family:impact,arial;
+    font-size:26px;
+}
+
+#backButtonXSusername{
+    color:#F77578;
+    text-decoration:none;
+    font-family:impact,arial;
+    font-size:26px;
+}
+
+#backButtonXSusername:hover{
+    color:#ffaea5;
+}
+
+#backButtonXS:hover{
+    color:#ffaea5;
+}
+
+#backButtonDivXS{
+    /*border:1px solid black;*/
+    width:100px;
+    margin-top:-20px;
+}
+
+#emailUpdateInput{
+    display:block;
+    font-size:24px;
+    text-align:center;
+    margin:10% auto 0 auto;
+}
+
+#passwordUpdateInput{
+    display:block;
+    font-size:24px;
+    text-align:center;
+    margin:50px auto 0 auto;
+}
+
+#usernameChangeID{
+    display:block;
+}
+
+#userEmailChangeDiv{
+    /*border:1px solid black;*/
+    width:60%;
+    margin:10% auto;
+}
+
+#editUsernameBtn{
+    color:#F77578;
+    text-decoration:none;
+    font-family:impact,arial;
+    font-size:26px;
+    margin-left:50px;
+}
+
+#headerLinkButtons{
+    color:#777777;
+    text-decoration:none;
+    font-family:impact,arial;
+    font-size:26px;
+    padding:10px, 15px;
+    margin-right:50px;
+}
+
+#headerLinkButtons:hover{
+    color:#333;
+}
+
+.active{
+    color:#333;
+}
+
+.navbar-brand{
+    color:#F77578 !important;
+    font-style:italic;
+    font-family:impact, arial;
+    font-size:26px !important;
+    margin-right:50px;
+}
+
+.dropdown-menu > .active > a{
+    background-color:#e7e7e7 !important;
+}
