@@ -30,10 +30,6 @@
         $passwordVar = filter_input(INPUT_GET, 'passwordVar', FILTER_SANITIZE_STRING) ?? "";
         $passwordVarConfirm = filter_input(INPUT_GET, 'passwordVarConfirm', FILTER_SANITIZE_STRING) ?? "";
 
-        $emailVarRegister = filter_input(INPUT_POST, 'emailVar',FILTER_SANITIZE_EMAIL) ?? "";
-        $passwordVarRegister = filter_input(INPUT_POST, 'passwordVar', FILTER_SANITIZE_STRING) ?? "";
-        $passwordVarConfirmRegister = filter_input(INPUT_POST, 'passwordVarConfirm', FILTER_SANITIZE_STRING) ?? "";
-
         $username = filter_input(INPUT_GET, 'username', FILTER_SANITIZE_STRING) ?? "";
 
 
