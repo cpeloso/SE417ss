@@ -160,13 +160,7 @@
             $username = "username";
         }
 
-        /*
-        $sql = "SELECT * FROM username WHERE userID = :userID";
-        $sql = $db->prepare($sql);
-        $sql->bindParam(':userID', $_SESSION["loggedInUserID"]);
-        $sql->execute();
-        $results = $sql->fetchAll(PDO::FETCH_ASSOC);
-        */
+        
 
         try{
             $sql = "UPDATE userssoftwaresecurity SET userName = :username WHERE userID = :userID";
