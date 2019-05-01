@@ -966,3 +966,9 @@ adminBtn > a:hover{
 .dropdown-menu > .active > a{
     background-color:#e7e7e7 !important;
 }
+
+#homeLinkThing{
+    font-weight:bold;
+    text-decoration: none;
+    font-size:20px;
+}
