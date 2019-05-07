@@ -12,7 +12,7 @@
     <h2 style="text-align:center;font-weight:bold;">HOME</h2>
 
     <h3 style="text-align:center;font-weight:bold;">Github Repo Link</h3>
-    <center><a href="https://github.com/cspeloso/SE417ss/" target="_blank" id="homeLinkThing">Github Link</a></center>
+    <center><a href="https://github.com/cspeloso/SE417ss/" target="_blank" id="homeLinkThing" tabIndex=1>Github Link</a></center>
     
 </body>
 </html>
