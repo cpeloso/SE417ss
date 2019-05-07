@@ -45,27 +45,27 @@
 
                 <form action="index.php" method="get" align="center">
 
-                    <input type="text" name="emailVar" id="emailVarRegister" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" required>
+                    <input type="text" name="emailVar" id="emailVarRegister" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" tabIndex=1 required>
 
                     <br><br>
 
-                    <input type="password" name="passwordVar" id="passwordVarRegister" placeholder="password" required>
+                    <input type="password" name="passwordVar" id="passwordVarRegister" placeholder="password" tabIndex=2 required>
 
                     <br><br>
 
-                    <input type="password" name="passwordVarConfirm" id="passwordVarConfirmRegister" placeholder="confirm password" required>
+                    <input type="password" name="passwordVarConfirm" id="passwordVarConfirmRegister" placeholder="confirm password" tabIndex=3 required>
 
                     <br><br><br>
 
                     <p id="errorMsg" style="color:red;"><?php echo $_SESSION['errorMSG'] ?></p>
 
-                    <input type="submit" name="action" id="registerButton" value="Sign Up">
+                    <input type="submit" name="action" id="registerButton" value="Sign Up" tabIndex=4>
                     <input type="hidden" name="action" id="registerButton" value="registerUser">
 
                 </form>
 
 
-                <p id="signupLinkLoginXS">Already have an account? <a id="registerLinkXS" href="login.php">Log in here</a></p>
+                <p id="signupLinkLoginXS">Already have an account? <a id="registerLinkXS" href="login.php" tabIndex=5>Log in here</a></p>
 
 
             </div>
@@ -82,27 +82,27 @@
 
                 <form action="index.php" method="get" align="center">
                     
-                    <input type="text" name="emailVar" id="emailVarRegister" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" required>
+                    <input type="text" name="emailVar" id="emailVarRegister" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" tabIndex=1 required>
 
                     <br><br>
 
-                    <input type="password" name="passwordVar" id="passwordVarRegister" placeholder="password" required>
+                    <input type="password" name="passwordVar" id="passwordVarRegister" placeholder="password" tabIndex=2 required>
 
                     <br><br>
 
-                    <input type="password" name="passwordVarConfirm" id="passwordVarConfirmRegister" placeholder="confirm password" required>
+                    <input type="password" name="passwordVarConfirm" id="passwordVarConfirmRegister" placeholder="confirm password" tabIndex=3 required>
 
                     <br><br><br>
 
                     <p id="errorMsg" style="color:red;"><?php echo $_SESSION['errorMSG'] ?></p>
 
-                    <input type="submit" name="action" id="registerButton" value="Sign Up">
+                    <input type="submit" name="action" id="registerButton" value="Sign Up" tabIndex=4>
                     <input type="hidden" name="action" id="registerButton" value="registerUser">
 
                 </form>
 
 
-                <p id="signupLinkLoginXS">Already have an account? <a id="registerLinkXS" href="login.php">Log in here</a></p>
+                <p id="signupLinkLoginXS">Already have an account? <a id="registerLinkXS" href="login.php" tabIndex=5>Log in here</a></p>
 
 
             </div>
@@ -118,25 +118,25 @@
             <br><br>
 
             <form action="index.php" method="get" align="center">
-                <input type="text" name="emailVar" id="emailVarRegister" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" required>
+                <input type="text" name="emailVar" id="emailVarRegister" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" tabIndex=1 required>
 
                 <br><br>
 
-                <input type="password" name="passwordVar" id="passwordVarRegister" placeholder="password" required>
+                <input type="password" name="passwordVar" id="passwordVarRegister" placeholder="password" tabIndex=2 required>
 
                 <br><br>
 
-                <input type="password" name="passwordVarConfirm" id="passwordVarConfirmRegister" placeholder="confirm password" required>
+                <input type="password" name="passwordVarConfirm" id="passwordVarConfirmRegister" placeholder="confirm password" tabIndex=3 required>
 
                 <br><br><br>
 
-                <input type="submit" name="action" id="registerButton" value="Sign Up">
+                <input type="submit" name="action" id="registerButton" value="Sign Up" tabIndex=4>
                 
                 <input type="hidden" name="action" id="registerButton" value="registerUser">
 
             </form>
 
-            <p id="signupLinkLogin">Already have an account?<a id="registerLink" href="login.php">Log in here</a></p>
+            <p id="signupLinkLogin">Already have an account?<a id="registerLink" href="login.php" tabIndex=5>Log in here</a></p>
 
         </div>
 

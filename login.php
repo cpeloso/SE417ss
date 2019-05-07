@@ -64,11 +64,11 @@ if(isset($_SESSION['errorMSG']))
 
             <form action="index.php" method="get" align="center">
 
-                <input type="text" name="emailVar" id="emailVarLogin" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" required>
+                <input type="text" name="emailVar" id="emailVarLogin" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" tabIndex=1 required>
 
                 <br><br>
 
-                <input type="password" name="passwordVar" id="passwordVarLogin" placeholder="password" required />
+                <input type="password" name="passwordVar" id="passwordVarLogin" placeholder="password" tabIndex=2 required />
 
                 <br><br><br>
 
@@ -76,9 +76,9 @@ if(isset($_SESSION['errorMSG']))
 
                 <div id="loginButtonsDiv">
 
-                    <input type="submit" name="action" id="newLoginButton2" style="margin-left:40px;" value="Login">
+                    <input type="submit" name="action" id="newLoginButton2" style="margin-left:40px;" value="Login" tabIndex=4 />
 
-                    <button id="newLoginButton1" onclick="window.location.href = 'landingpage.php';">Back</button>
+                    <button id="newLoginButton1" onclick="window.location.href = 'landingpage.php';" tabIndex=3>Back</button>
 
                 </div>
 
@@ -102,11 +102,11 @@ if(isset($_SESSION['errorMSG']))
 
             <form action="index.php" method="get" align="center">
 
-                <input type="text" name="emailVar" id="emailVarLogin" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" required>
+                <input type="text" name="emailVar" id="emailVarLogin" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" tabIndex=1 required>
 
                 <br><br>
 
-                <input type="password" name="passwordVar" id="passwordVarLogin" placeholder="password" required>
+                <input type="password" name="passwordVar" id="passwordVarLogin" placeholder="password" tabIndex=2 required>
 
                 <br><br><br>
 
@@ -114,9 +114,9 @@ if(isset($_SESSION['errorMSG']))
 
                 <div id="loginButtonsDiv">
 
-                    <input type="submit" name="action" id="newLoginButton2" style="margin-left:40px;" value="Login">
+                    <input type="submit" name="action" id="newLoginButton2" style="margin-left:40px;" value="Login" tabIndex=4 />
 
-                    <button id="newLoginButton1" onclick="window.location.href = 'landingpage.php';">Back</button>
+                    <button id="newLoginButton1" onclick="window.location.href = 'landingpage.php';" tabIndex=3>Back</button>
 
                 </div>
 
@@ -136,11 +136,11 @@ if(isset($_SESSION['errorMSG']))
 
         <form action="index.php" method="get" align="center">
 
-            <input type="text" name="emailVar" id="emailVarLogin" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" required>
+            <input type="text" name="emailVar" id="emailVarLogin" pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}" title="example@email.com" placeholder="email" value="" tabIndex=1 required>
 
             <br><br>
 
-            <input type="password" name="passwordVar" id="passwordVarLogin" placeholder="password" required>
+            <input type="password" name="passwordVar" id="passwordVarLogin" placeholder="password" tabIndex=2 required>
 
             <br><br><br>
 
@@ -148,9 +148,9 @@ if(isset($_SESSION['errorMSG']))
 
             <div id="loginButtonsDiv">
 
-                <input type="submit" name="action" id="newLoginButton2" value="Login">
+                <input type="submit" name="action" id="newLoginButton2" value="Login" tabIndex=4>
 
-                <button id="newLoginButton1" onclick="window.location.href = 'landingpage.php';">Back</button>
+                <button id="newLoginButton1" onclick="window.location.href = 'landingpage.php';" tabIndex=3>Back</button>
 
             </div>
 
