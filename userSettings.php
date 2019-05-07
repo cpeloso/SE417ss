@@ -29,10 +29,10 @@ else{
         
     </h1>
 
-    <center><a id="editUsernameBtn" href="?action=usernameChange">Change username</a></center>
-    <center><a id="editUsernameBtn" href="?action=emailUpdate">Update email</a></center>
-    <center><a id="editUsernameBtn" href="?action=passwordUpdate">Update password</a></center><br>
-    <center><a id="editUsernameBtn" href="?action=logout.php">Logout</a></center>
+    <center><a id="editUsernameBtn" href="?action=usernameChange" tabIndex=1>Change username</a></center>
+    <center><a id="editUsernameBtn" href="?action=emailUpdate" tabIndex=2>Update email</a></center>
+    <center><a id="editUsernameBtn" href="?action=passwordUpdate" tabIndex=3>Update password</a></center><br>
+    <center><a id="editUsernameBtn" href="logout.php" tabIndex=4>Logout</a></center>
 
     <br><br><br><br>
 
