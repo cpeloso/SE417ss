@@ -1,8 +1,8 @@
 <?php
 
-    $dsn = "mysql:host=ict.neit.edu:5500;dbname=budgetbuddy";
-    $userName = "BudgetBuddy";
-    $pword = "neit2018";
+    $dsn ="";
+    $userName = "";
+    $pword = "";
     
     try{
         $db = new PDO($dsn, $userName, $pword);
